@@ -1,11 +1,11 @@
 import http from '../http-common';
 
 const getAll = () => {
-  return http.get('/grade');
+  return http.get('/');
 };
 
 const get = (id) => {
-  return http.get(`/${id}`);
+  return http.get(`/grade/${id}`);
 };
 
 const create = (data) => {
